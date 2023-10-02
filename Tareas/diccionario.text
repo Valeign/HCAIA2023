@@ -1,0 +1,21 @@
+Lenguajes de programación
+
+- Puntero: una variable que almacena la dirección de memoria de otra variable.
+- Memoria estática: 
+- Memoria dinámica:
+- Makefile: 
+
+Python:
+
+- Clases: una estructura de programación que permite definir un conjunto de métodos y atributos que describen un objeto o entidad.
+- Objeto: Colección única de datos y comportamientos
+- Referencia: relación entre una variable y un objeto en memoria.
+- Instancia: Método que modifica o acede al estado de un objeto al que hace referencia. 
+- Atributo: variable que se define dentro de una clase, la cual almacena datos que pertenecen a un objeto de esa clase.
+- Método: función que pertenece a un objeto.
+- Operador: símbolos especiales que se indican al realizar algún tipo de cálculo.
+- Namespace: correspondía entre nombres y objetos limitados al fichero que se define en un modulo. 
+- Poliformismo: habilidad de los objetos para responder en diferentes clases utilizando el mismo nombre
+- Herencia: concepto que permite heredar atributos y métodos de una clase
+- Modulo: fichero, con extensión .py accesible al interprete de python y ejecutable
+- Fichero: conjunto de bytes almacenados en algún dispositivo. 
