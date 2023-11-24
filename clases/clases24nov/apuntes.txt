@@ -1,0 +1,23 @@
+Cadenas de markov:
+representan procesos estocasticos a tiempo discreto donde la probabilidad de cada estado futuro depende del estado actual. Por ejemplo el clima: se clasifica por catagorias: soliado, nublado, parcial, lluvioso y la cadena de Markov da las probabilidades de que cambie de un estado a otro. 
+	- Deben estar caterogizadas
+	- Hay que pensar de que forma puede ser util
+	- otro ejemplo: arboles de desicion - machine learning, redes neuronales
+	- ¿para que sirve? algebra y probabilidades
+
+
+Cadena de Markov con Monte Carlo:
+
+- Modelo con mucho costo computacional
+- ¿Como funciona? Aplica la propiedad de Markov 
+- Aplicaciones: estadistica no inferencial, no hay predicciones analiticas, esta conectado con la inferencia bayesiana, machine learning.
+
+
+MCMC:
+
+- Genera un instrumento que explore la distribucion de probabilidad de una manera aleatoria.
+- Apunta a poder describirlo visualmente. 
+
+
+Metropolis-hasting: 
+
