@@ -1,0 +1,61 @@
+¿Que es una simulación? resolver un problema fisico usando aproximaciones a las ecuaciones que gobierna el sistema evolucionando en tiempo o en espacio
+N-cuerpos: integra en el tiempo las ecuaciones que gobiernan las distintas fuerzas actuando sobre un conjunto de n-cuerpos
+Ayuda a entender sistemas muy complejos y los acomplamientos entre las ecuaciones
+
+Diagrama para crear una simulación numerica:
+1. Seleccionar el problema o fenomeno.
+2. Elegir el marco físico:
+3. Generar condiciones iniciales - paso mas dificl
+4. Discretizar el modelo númerico.
+5. Escribir el dialogo
+
+Simulación mas simple:
+- Integración numerico: ecuaciones acopladas, procesos no lineales, metodos de simpson y del trapezoide
+
+Aplicaciones:
+- Formación de estrellas
+- Universo a gran escala 
+- Galaxias
+- Cúmulos globulares, etc. 
+
+Ejemplos:
+- Auriga: centro Hydra
+
+¿que nos permite? dar pistas sobre la evolución
+
+Costos:
+- Computacionales: 3 millones de horas de CPU.
+	           Paralelamento 4800 procesadores, aproximadamente un mes por simulación, sin considerar tiempo de esperas
+
+
+Marco teorico:
+¿Como hacer la simulacion para formación de estructura? El marco teorica es el modelo lambda cold dark matter. 
+Comienza por la geometria, como se mueven, distribucion de masa y energía. Principio cosmologico. 
+Isotropico: 
+Homogeneo: no importa donde me pare, se va a ver la misma física.
+
+Condiciones iniciales: 
+Radiacion cosmica de fondo: donde me pare la veo casi igual. Principio de la cosmología. Hay pequeñas perturbaciones de la temperatura de forma micro.
+Hot-spots: mayores densidad de masa
+
+Condiciones iniciales: 
+ - Regimen lineal: mecanica de fluidos.
+ - Regimen no lineal: 
+
+Overdensity -> sheet (pancake) -> filament -> halo -> galaxy o cluster?
+
+Método númerica: GADGET
+
+Simulaciones numerica:
+
+Estrellas: evolucion estelar, enriquecimiento quimico, procesos de feedback, gravedad
+Materia oscura: gravedad
+Gas: gravedad, hidrodinamica, fisica del medio intergalactico, formación estelar
+
+¿Que debemos incluir? 
+procesos de feedback: supernovas, agn
+
+
+
+
+
