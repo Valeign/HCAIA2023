@@ -1,0 +1,42 @@
+Clase 2- Simulaciones
+
+Condiciones inciales -> Lambda CMD -> Mapa de radiación de fondo (T=2.708 K)-> Emisión de la Vía Láctea
+
+Primer paso: "Crear un universo isotropico y homogeneo"
+
+Ejemplo (en realidad es una caja 3d):
++++++++++
++++++++++
++++++++++  
++++++++++
++++++++++
+
+- Para evitar limitaciones: condiciones de contorno periodicas -> llevar las condiciones a un ambiente mas global 
+
+Segundo paso: Poner las microperturbaciones del mapa de fondo
+
+Tercer paso: expresarlas en términos de  Transformada de Fourier
+ - Considera las perturbaciones de mapa de fondo
+ - Considera la densidad en los espacios
+ - Mide cuanta energía hay en las ondas
+ 
+Cuarto paso: elegir el modelo cosmologico a trabajar
+- Depende de la materia 
+- 
+
+Quinto paso: Función de transferencia                                _
+- Hot dark matter: esta eliminado                                     |
+- Warm dark matter: pocas- problemas con la formación de estructura   | Fénomenos excluyentes entre sí. 
+- Cold dark matter:                                                  _|
+
+Sexto paso: evolución temporal
+- Usar técnicas analiticas más simple
+- Por ejemplo: péndulo
+- Asumir sistema de distribución: colissionless boltzman equation: 
+				  Sistema no colisionales - fluido ideal
+			          Sistema relajado densidad y potencia constante (potencial de poisson)
+- Modelo de N-cuerpos:
+- Softning length
+
+
+                                  
