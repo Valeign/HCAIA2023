@@ -1,0 +1,42 @@
+Simulaciones:
+- Integra ecuaciones de movimiento en el tiempo
+
+
+Métodos:
+ - Integración Particula-particula: fuerza como sumatoria usando la tercera ley de newton.
+ - Metodo del arbol: utilizada en sistemas de n-cuerpos, se dividen las particulas en subunidades para calcular fuerzas gravitacionales
+	Pasos: Dividir la caja en 4 partes interactivamente y busca donde hay particulas
+	       Calcula la posicion del centro de masas 
+	       El recorrido el optativo 
+	       Se subdivide hasta llegar a las cajas que tienen una sola particula-> define el parametro de apertura
+	       Opening angle: limite angular a partir del cual se considera que im grupo de particula puede ser aproximado por una sola particula. 
+	       Si theta es 0, se vuelve al caso particle-particle. 
+	       ¿como difinir el opening angle? tomar el tamaño de la caja, la distancia minima D, la distancia maxima entre el centro masas y su caja.
+					       Barmer-hut			min-scale		Bmax
+	       Ventajas: mucho mas eficiente que el método Particle-particle
+		         Usar centros de masas puede generar errores en los calculos de la fuerza
+			 Para mejorar estas estimaciones se suelen utilizar expandiones multipolares de la distribucion de la masa de cada celda a ser evaluada
+			 Tipicamente con considerar hasta el cuadrupolo es suficiente
+			 Importante: el arbol no debe ser calculado en cada integración. 
+- Particule-Mesh: calcula el potencial del sistema sobre una rejilla a partir del campo de densidad, resolviendo la ecuacion de Poisson asociada
+		  La particular no interactuan directamente entre si, sino solo a traves de un campo medio. El metodo suaviza escencialmente las interacciones gravitacionales. Interpola la masa de las particulas en la grilla y resuelve la ecuacion de poisson utilizando el método de Fourier para obtener el potencial en la grilla. 
+		  Ventajas: facil de implementar, para aplicaciones en las que la masa llena el volumen, suele ser mas rapido que el metodo del arvol constante en terminos mas pequeños.
+		  Desventajas: la aproximacion de la fuerza es anisotropica en la rejilla (una particula que deberia producir una fuerza esfericamente simetrica se vera afectada por errores que seleecionan direcciones alineadas con la rejilla). 
+		  
+Asignacion de masa:
+- Nearest-Grid-Point (NGP): asigna la masa al lugar mas cercano de la transformada de fourier .__|
+- Cloud-cell(CIC): distribute la masa de la caja sociaciada a la transformada de fouurier  | .|
+- Triangle-shaped-cloud(TSC): pone un triangulo distribuido como en un triangulo cerca alrededor de la masa. /.\
+
+Método hibridos:
+1. Particle-particle particle-mesh
+2. TressPM: ej-gadget
+
+Metodos de integracion de orbitas: 
+- Condiciones importantes: consistencia - tiene que tener una solucion exacta cuando h tiende a 0. 
+			   Bajo error local- error que comete el codigo en un cierto paso - error menos a h**2 
+			   Bajo error global - 
+- Metodo de Euler:
+- Mid point: preddicion - punto medio -correccion - actualización. 
+- Metodo leapgrof integration: es reversible en el tiempo, es simetricamente esferico, conserva el momento angular, preserva el espacio de fase
+- Rounge-kutta de cuarto orden: 
