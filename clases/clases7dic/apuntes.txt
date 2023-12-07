@@ -1,0 +1,41 @@
+Dinamica del gas:
+
+Estado del fluido:
+- Densidad - escalar
+- Presion - escalar
+- Campo de velocidad -vectorial
+- Potencial gravitatoria - escalar
+
+*Si se miden estas variables, especificamos el esrado de un fluido con el formalismo euleriano 
+
+Euler -> cambios temporales
+Lagrange -> describe el fluido
+
+
+Enfoque lagrangino: metodo hidrodinamico de particular suavizasas. Funciona diviendo el fluido en un conjunto de elementos moviles discretos i, j, llamados particulas. Su naturaleza lagrangiana permite esbecer la posicion de cada partícula n, mediante la integracion de velocidad.
+		    
+Ventajas:
+
+- es ilimitado por el espacio
+- evoluciona solo en las regiones con un campo de densidad distinyo de cero, por lo que no se pierde tiempo modelando espacio vacion como en los codigos de rejilla.
+- la resolucion es apadtativa
+- la historia de evolucion del fluido es ontrisecaamente facil de rastrear-
+- la naturalez de particulas facilita el acoplamiento con fisica de n-cuerpos o autogravedad.
+- la distribucion de masa entre particulas asegura la conservacion exacta de la masa ya que la masa de cada particula es constante a lo largo del tiempo. 
+
+
+Desventajas:
+
+- hay que saber cuales son los vecinos
+- 
+
+
+Enfoque euleriano: 
+
+- Usa algo llamado apasrive-mesh-refinement que busca las regiones de mayor densidad. 
+- Se trabaja con una jerarquia de grillas
+
+Ejemplo - Enzo
+
+Alternativas (entre los dos enfoques) - Arepo 
+
