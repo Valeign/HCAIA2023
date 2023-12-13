@@ -13,12 +13,12 @@
 
 El directorio llamado clases contiene los apuntes y codigos realizados cada clase, nombrados por su fecha. 
 
-C: 5 de septiembre - 12 de septiembre
-Fundamentos de python: 15 de septiembre - 6 de octubre
-Documentación: 10 de octubre
-Almacenamiento de datos: 12 de octubre - 17 de noviembre
-Métodos númericos: 21 de noviembre - 24 de noviembre
-Simulaciones: 28 de noviembre - 7 de diciembre 
+- C: 5 de septiembre - 12 de septiembre
+- Fundamentos de python: 15 de septiembre - 6 de octubre
+- Documentación: 10 de octubre
+- Almacenamiento de datos: 12 de octubre - 17 de noviembre
+- Métodos númericos: 21 de noviembre - 24 de noviembre
+- Simulaciones: 28 de noviembre - 7 de diciembre 
 
 ## Tareas: 
 
